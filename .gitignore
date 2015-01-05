@@ -1,1 +1,7 @@
+# DIRECTORIES
 node_modules/
+
+
+# FILES
+*.DS_Store
+.DS_Store
