@@ -1,0 +1,23 @@
+{
+  "currentPope": "popeFrancis2013",
+  "archives": {
+    "popeFrancis": {
+      "name": "Pope Francis",
+      "wiki": "http://en.wikipedia.org/wiki/Pope_Francis",
+      "facts": [
+        {
+          "fact": "Denounced hell to all Catholics",
+          "sources": [
+            "http://www.independent.co.uk/news/world/europe/pope-francis-declares-evolution-and-big-bang-theory-are-right-and-god-isnt-a-magician-with-a-magic-wand-9822514.html"
+          ]
+        }
+      ]
+    },
+    "popeBenedictXVI": {
+      "name": "Pope Benedict XVI",
+      "wiki": "http://en.wikipedia.org/wiki/Pope_Francis",
+      "facts": [
+      ]
+    }
+  }
+}

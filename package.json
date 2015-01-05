@@ -1,0 +1,14 @@
+{
+  "name": "whathasthepopedonelately",
+  "version": "0.0.0",
+  "description": "An angular app that dumps a random factoid about the current pope's exploits and accomplishments",
+  "main": "index.html",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Brandtley McMinn",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.3.8"
+  }
+}
