@@ -1,4 +1,9 @@
 {
-    "laxbreak": true,
-    "laxcomma": true
+  "laxbreak": true,
+  "laxcomma": true,
+
+  "browserify": true,
+  "globals": {
+    "angular": true
+  }
 }
