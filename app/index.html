@@ -1,10 +1,26 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="whatpopedone">
+<html lang="en" ng-app="popeApp">
 <head>
   <meta charset="UTF-8">
-  <title>Document</title>
+
+  <title>What has Pope Name Here done lateley?</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="css/theme.css">
+  <link rel="shortcut icon" type="image/png" href="img/favicon.png">
 </head>
-<body>
+<body class="">
+
+  <ul class="menu">
+    <li href="#/view1">view1</li>
+    <li href="#/view2">view2</li>
+  </ul>
+
+  <div ng-view></div>
+
+  <script type="text/javascript" src="dest/app.js"></script>
 
 </body>
 </html>

@@ -2,10 +2,10 @@
   "name": "whathasthepopedonelately",
   "version": "0.0.0",
   "description": "An angular app that dumps a random factoid about the current pope's exploits and accomplishments",
-  "main": "index.html",
+  "main": "app/dest/app.js",
   "scripts": {
     "test": "test",
-    "preinstall": "npm install -g grunt-cli"
+    "preinstall": "npm install -g grunt-cli browserify"
   },
   "author": "Brandtley McMinn",
   "license": "MIT",
@@ -17,7 +17,9 @@
     "grunt": "^0.4.5",
     "grunt-browserify": "^3.2.1",
     "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-stylus": "^0.20.0",
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "load-grunt-tasks": "^2.0.0"
   }
 }
