@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         },
 
         browserify: {
-            './app/dest/app.js': ['./client/app.js']
+            './app/build/app.js': ['./client/app.js']
         },
 
         watch: {

@@ -1,5 +1,5 @@
-require('angular/angular');
-require('angular-route/angular-route');
+require('angular');
+require('angular-route');
 
 angular.module('popeApp', ['ngRoute'])
   .config(['$routeProvider', function($routeProvider) {
